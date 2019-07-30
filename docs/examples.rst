@@ -181,7 +181,7 @@ or with a dict of new field values::
 
     issue.update(fields={'summary': 'new summary', 'description': 'A new summary was added'})
 
-You can suppress notifications::
+Jira admin role can suppress notifications::
 
     issue.update(notify=False, description='A quiet description change was made')
 
